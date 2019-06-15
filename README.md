@@ -1,13 +1,11 @@
 # LÉEME
 
-***
 ### Descripción
 Este repositorio contiene la resolución del Trabajo Práctico de la asignatura Desarrollo de Software Multipantalla de los alumnos Auquer, Marcelo y Juarez Rivera, Verónica.
 ***
-***
 ### Entorno de desarrollo
 Por limitaciones de hardware, se utilizó Expo para correr la aplicación durante el desarrollo. Para ello se utilizó el cliente Expo en dispositivos Android.
-
+***
 ### ¿Cómo correr la aplicación?
 En primer lugar, clonar el repositorio:
 ```
