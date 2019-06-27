@@ -7,8 +7,8 @@ export default function App () {
   return (
     <Router>
       <Scene key='root'>
-        <Scene key='albumList' component={AlbumList} title='Albums' initial />
-        <Scene key='photoList' component={PhotoList} title='Photos' />
+        <Scene key='albumList' component={AlbumList} title='Álbumes' initial />
+        <Scene key='photoList' component={PhotoList} title='Fotos' />
       </Scene>
     </Router>
   )

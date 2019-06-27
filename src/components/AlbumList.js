@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { ScrollView, Text, View } from 'react-native';
 import axios from 'axios';
 import AlbumDetail from './AlbumDetail';
+import { Button } from 'react-native-elements';
 
 class AlbumList extends Component {
   state = { photoset: null };
@@ -23,9 +24,10 @@ class AlbumList extends Component {
 
     if (!this.state.photoset) { 
 			return (
-					<Text>
-            Loading...
-					</Text>
+                <Button
+                    title="Loading button"
+                    loading
+                />
 				);
     }
 
