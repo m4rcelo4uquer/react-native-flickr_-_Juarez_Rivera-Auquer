@@ -20,7 +20,7 @@ export default class PhotoList extends Component {
      );
   }
 
-  keyExtractor = (item, index) => {
+  keyExtractor = (item) => {
     return item.id
   }
 
