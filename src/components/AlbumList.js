@@ -27,10 +27,11 @@ class AlbumList extends Component {
   render() {
     if (!this.state.photoSet) {
 			return (
-                <Button
-                    title="Loading button"
-                    loading
-                />
+        <Button
+          backgroundColor = '#397af8'
+          title="Cargando..."
+          loading
+        />
 				);
     }
     return (

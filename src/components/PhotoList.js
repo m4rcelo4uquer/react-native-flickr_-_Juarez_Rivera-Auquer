@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Text, FlatList, View } from 'react-native';
 import axios from 'axios';
 import PhotoDetail from './PhotoDetail';
+import { Button } from 'react-native-elements';
 
 export default class PhotoList extends Component {
   state = { photos: null };
@@ -26,12 +27,15 @@ export default class PhotoList extends Component {
 
   render() {
     if (!this.state.photos) {
-			return (
-			  <View style={{ flex: 1 }}>
-					<Text>
-            Loading...
-					</Text>
-			  </View>
+      return (
+        <View style={{ flex: 1 }}>
+          <Button
+            backgroundColor = '#397af8'
+            loading
+            title='Cargando...'
+
+          />
+        </View>
 			);
     }
     return (
